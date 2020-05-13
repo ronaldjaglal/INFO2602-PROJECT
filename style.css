@@ -1,0 +1,24 @@
+div.tabcontent{ 
+         
+        /* background: rgb(62,201,212);
+background: radial-gradient(circle, rgba(62,201,212,0.5) 0%, rgba(30,136,229,0.5) 100%);width: 100%;  */
+        /* background-image:url('real_cf.png'); */
+        background: rgb(7,18,38);
+background: radial-gradient(circle, rgba(7,18,38,1) 100%, rgba(12,39,62,0.9245014245014245) 100%);
+        overflow-x: hidden; 
+        overflow-x:auto;
+        text-align:justify; 
+      } 
+      div.tabcontent p, div.tabcontent h3{ 
+        color: white;
+        
+                
+        width: 100%; 
+        overflow-x: hidden; 
+        overflow-x: auto; 
+        text-align:center; 
+      } 
+       div.tabcontent main{ 
+        height: 100%;
+       
+      } 

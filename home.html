@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   <head><!--The main page, it contains the current temperature, station information and log charts-->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <title>GroceryListGen</title>
+     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon"> 
+
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- <link rel="manifest" href="manifest.json"/> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <link href="style.css" rel="stylesheet" type="text/css" />       
+    </head>
+    
+  
+  <body>
+  <ul class="tabs">
+        <li class="tab col s3"><a href="#temp">Shopping List</a></li>
+        <li class="tab col s3"><a class="active" href="#uv">Recipes</a></li>
+</ul>
+
+  <!--left-->
+  <div class="tabcontent display" id="temp" >
+  
+  </div>
+  	
+  <!--right-->
+  <div  class="tabcontent" id="2nd">
+ 
+  </div>
+ 
+    
+    <!--firebase and other functions-->
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+	<script src="js/initializefirestore.js"></script>
+	
+    <script src="script.js"></script>
+
+  </body>
+</html>
