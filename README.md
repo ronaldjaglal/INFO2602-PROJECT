@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ronaldjaglal/INFO2602-PROJECT) 
+
 # INFO2602-PROJECT
 Description of app:
 On the app, the user would have a section for their grocery list and another to view recipes.
