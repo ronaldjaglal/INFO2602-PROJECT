@@ -16,31 +16,33 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
      <link href="style.css" rel="stylesheet" type="text/css" />       
     </head>
-    
-  
-  <body>
-  <ul class="tabs">
-        <li class="tab col s3"><a href="#temp">Shopping List</a></li>
-        <li class="tab col s3"><a class="active" href="#uv">Recipes</a></li>
-</ul>
 
-  <!--left-->
-  <div class="tabcontent display" id="temp" >
+    <nav>
+      <div class="nav-wrapper" style="background-color: olivedrab;">
+        <a href="#!" class="brand-logo"><i class="material-icons">kitchen</i>GroceryListGen</a>
+   </nav>
+<body>   
+   <div class="row " style="font-size: x-large;">
+    <div class="col s12 " style="background: rgba(0, 0, 0, 0.5)" >
+      <ul class="tabs" style="background-color: transparent;" >
+        <li class="tab col s3"><a class="active" href="#List-content">My List</a></li>
+        <li class="tab col s3"><a href="#recipe-content">Recipes</a></li>
+      
+      </ul>
+    </div>
+    </div> 
+    <div class="tabcontent" id="List-content" >
+      <p>This is where the list would go</p>
+      <div id="List" class="col s12">This is where the list would go</div>
+ 
+    </div>
+    <div class="tabcontent" id ="recipe-content">
+      <div id="recipes" class="col s12">This is where the recipes would go</div>
+
+    </div>
+ 
   
-  </div>
-  	
-  <!--right-->
-  <div  class="tabcontent" id="2nd">
- 
-  </div>
- 
-    
-    <!--firebase and other functions-->
-    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
-	<script src="js/initializefirestore.js"></script>
-	
+
     <script src="script.js"></script>
 
   </body>
