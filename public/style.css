@@ -15,7 +15,7 @@ body{
 }
 .tabs .tab a.active{
  color: white;
-  weight:400px;
+ 
 }
 .tabs .tab a:focus, .tabs .tab a:focus.active {
   background: 	rgb(107,142,35,.5);
