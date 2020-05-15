@@ -50,6 +50,11 @@ div.tabcontent{
   overflow-x: hidden; 
   overflow-x:auto;
   text-align:justify; 
-  height:100vh;
+  height:auto;
 } 
 
+.items{
+  display:block;
+  margin-left: 10px;
+  padding: 10px;
+}
