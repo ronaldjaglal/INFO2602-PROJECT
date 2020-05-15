@@ -28,10 +28,10 @@ function Add(){
   while(list[i] != null){
   ingredients.innerHTML +=`<tr>
   <div class="items">
-  <li>
-    <input id="indeterminate-checkbox" type="checkbox" />
+  <label>
+    <input id="indeterminate-checkbox" type="checkbox" >
     <span>${list[i]} </span>
-  </li> 
+  </label> 
   </div>
     `;
     i=i+1;
