@@ -23,19 +23,16 @@ catch(e){
 }
 }
 
-//code for the button that adds to the list
-// var button = document.createElement('button')
-// button.onclick= function(){
-//   console.log("alert('I was clicked')");
-// }
-// var list
 function Add(){
  
   while(list[i] != null){
   ingredients.innerHTML +=`<tr>
   <div class="items">
    
-    <li>${list[i]}</li> 
+    <label>
+    <input id="indeterminate-checkbox" type="checkbox" />
+    <span>${list[i]} </span>
+  </label> 
   </div>
     `;
     i=i+1;
