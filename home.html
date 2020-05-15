@@ -22,9 +22,9 @@
         <a href="#!" class="brand-logo"><i class="material-icons">kitchen</i>GroceryListGen</a>
    </nav>
 <body>   
-   <div class="row " style="font-size: x-large;">
+   <div class="row " style="font-size: large;">
     <div class="col s12 " style="background: rgba(0, 0, 0, 0.5)" >
-      <ul class="tabs" style="background-color: transparent;" >
+      <ul class="tabs" style="background-color: transparent; font-family: Georgia, 'Times New Roman', Times, serif;" >
         <li class="tab col s3"><a class="active" href="#List-content">My List</a></li>
         <li class="tab col s3"><a href="#recipe-content">Recipes</a></li>
       
@@ -33,11 +33,13 @@
     </div> 
     <div class="tabcontent" id="List-content" >
       <p>This is where the list would go</p>
-      <div id="List" class="col s12">This is where the list would go</div>
+      <div id="List">This is where the list would go</div>
  
     </div>
     <div class="tabcontent" id ="recipe-content">
-      <div id="recipes" class="col s12">This is where the recipes would go</div>
+      <!-- <div id="recipes" class="col s12">This is where the recipes would go</div> -->
+      <h1>Recipes</h1>
+      <ul id="authors"></ul>
 
     </div>
  
@@ -45,5 +47,5 @@
 
     <script src="script.js"></script>
 
-  </body>
+   </body>
 </html>
