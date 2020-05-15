@@ -30,7 +30,7 @@ catch(e){
 // }
 // var list
 function Add(){
-  list= list.split(',')
+ 
   while(list[i] != null){
   ingredients.innerHTML +=`<tr>
   <div class="items">
@@ -40,7 +40,7 @@ function Add(){
     `;
     i=i+1;
   }
-  console.log(list);
+  // console.log(list);
 }
 var list=[];
 var i=0;
@@ -49,7 +49,8 @@ getData(proxyUrl, url)
 function drawtable(recipes){
   let result = document.querySelector('#result');
   for(let recipe of recipes){
-    list=recipe.ingredients;
+    list=recipe.ingredients; 
+    list= list.split(',')
     // console.log(list);
     result.innerHTML +=`<tr>
     <div class="items">
