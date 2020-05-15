@@ -28,18 +28,17 @@ function Add(){
   while(list[i] != null){
   ingredients.innerHTML +=`<tr>
   <div class="items">
-   
-    <label>
+  <li>
     <input id="indeterminate-checkbox" type="checkbox" />
     <span>${list[i]} </span>
-  </label> 
+  </li> 
   </div>
     `;
     i=i+1;
   }
   // console.log(list);
 }
-var list=[];
+
 var i=0;
 getData(proxyUrl, url)
 
